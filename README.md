@@ -1,8 +1,35 @@
-# Module One Final Project Guidelines
+# Module One Final Project Guidelines --- STREAMLINE 
 
 Congratulations, you're at the end of module one! You've worked crazy hard to get here and have learned a ton.
 
 For your final project, we'll be building a Command Line database application.
+
+------------- STREAMLINE -------------
+This is a CLI app made by Winston McGriff. This app will help a person choose which television and film streaming service(s) are right for them. This app was made for our educational purposes only. 
+
+The license guide can be found in the license.md in the directory. I will not give you a link, because if you can read this you can find it.
+
+----------- FOR CONTRIBUTORS------
+If you would like to add to this project, you can fork and work on it as you want just give credit. Please credit Winston McGriff in your readme along with my email: winstonmcgriff27@gmail.com.
+
+----------- Installation Instructions------
+
+Please follow the installation instructions in order. 
+
+Download all files from Github.
+Run bundle install on your CommandLine while in the directory (RUBY_PROJECT_GUIDELINE) to install all dependencies.
+Once you have all gems installed, run 'rake db:migrate' without the quotes.
+Once the database has been created, you need to run 'rake db:seed' once again without the quotes.
+if all steps have been followed, you can now run “rake start' (assuming you are in the root directory).
+
+----------- CONTRIBUTOR SECTION------
+Winston McGriff ----- original creator
+
+
+
+
+
+
 
 ## Project Requirements
 
@@ -29,9 +56,10 @@ For your final project, we'll be building a Command Line database application.
 Projects need to be approved prior to launching into them, so take some time to brainstorm project options that will fulfill the requirements above.  You must have a minimum of four [user stories](https://en.wikipedia.org/wiki/User_story) to help explain how a user will interact with your app.  A user story should follow the general structure of `"As a <role>, I want <goal/desire> so that <benefit>"`. For example, if we were creating an app to randomly choose nearby restaurants on Yelp, we might write:
 
 * As a user, I want to be able to enter my name to retrieve my records
-* As a user, I want to enter a location and be given a random nearby restaurant suggestion
-* As a user, I should be able to reject a suggestion and not see that restaurant suggestion again
-* As a user, I want to be able to save to and retrieve a list of favorite restaurant suggestions
+* As a user, I want to select a streaming service to see and see it's reviews
+* As a user, I should be able to add a create & update user profiles
+* As a user, I want to be able to save to and retrieve a list of favorite restaurant suggestions 
+<!-- stretch -->
 
 ## Instructions
 
